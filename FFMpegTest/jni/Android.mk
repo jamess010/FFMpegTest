@@ -41,7 +41,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE    := ffmpeg-test
 LOCAL_SRC_FILES := ffmpeg-test.c
 LOCAL_LDLIBS := -llog -ljnigraphics -lz -landroid
-LOCAL_SHARED_LIBRARIES := avcodec-55-prebuilt avdevice-55-prebuilt avfilter-4-prebuilt avformat-55-prebuilt avutil-52-prebuilt
+LOCAL_SHARED_LIBRARIES := liblog avcodec-55-prebuilt avdevice-55-prebuilt avfilter-4-prebuilt avformat-55-prebuilt avutil-52-prebuilt
 
 
 include $(BUILD_SHARED_LIBRARY)
